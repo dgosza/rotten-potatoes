@@ -44,4 +44,4 @@ jobs:
         with: 
           image: dieezs/rotten-potatoes:${{ github.run_number }}
           manifests: |
-            config.yaml
+            src/config.yaml
